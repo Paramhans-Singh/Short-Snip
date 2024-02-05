@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+}
+
+.spinner {
+  margin-top: 5%;
+}
+
+.err {
+  margin-top: 10%;
+  background-color: #e98580;
+  text-align: center;
+  padding: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin: 2%;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  background-color: #004085;
+}
+
+.button > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .spinner {
+    margin-top: 8%;
+  }
+
+  .err {
+    margin-top: 20%;
+  }
+}
