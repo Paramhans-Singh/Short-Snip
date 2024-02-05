@@ -19,7 +19,7 @@ dotenv.config();
 //use cors to allow cross origin resource sharing
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: process.env.ClientURL,
     credentials: true,
   })
 );

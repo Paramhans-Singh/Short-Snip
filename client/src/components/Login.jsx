@@ -4,7 +4,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
 
-const serverBase = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const serverBase = import.meta.env.ServerURL ;
 
 function Login({ onLogin }) {
   const [email, setEmail] = useState("");

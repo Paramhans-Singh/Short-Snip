@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/table.css";
 import copy from "../assets/copy.png";
 
-const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const baseUrl = import.meta.env.ServerURL;
 
 function Table(props) {
   const copyToClipboard = () => {

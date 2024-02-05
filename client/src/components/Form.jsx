@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/form.css";
 import axios from "axios";
 
-const serverBase = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const serverBase = import.meta.env.ServerURL;
 
 function is_url(str) {
   let exp = new RegExp(
